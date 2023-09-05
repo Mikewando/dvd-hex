@@ -70,7 +70,7 @@ namespace vts_title {
   struct AudioAttributes {
     _AudioAttributes1 audio_attributes_1;
     char language_code[2];
-    padding[6];
+    padding[4];
   } [[static]];
 
   bitfield _SubpictureAttributes1 {
